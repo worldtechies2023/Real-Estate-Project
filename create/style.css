@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish&family=Public+Sans:wght@100&display=swap');
+
+* {
+    margin: auto;
+    padding: 0%;
+}
+
+
+main {
+    font-family: 'Mulish', sans-serif;
+    background-color: #111111;
+    padding: 2rem 0 1rem 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.logo img:nth-child(1){
+    height: 50px;
+}
+.logo img:nth-child(2){
+    height: 15px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.form {
+    background-color: #2b2b2b;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    margin: 05%;
+    border: none;
+}
+
+::placeholder {
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #CDCDCD;
+}
+
+input {
+    background-color: #0E0E0E;
+    border: none;
+    color: #ffffff;
+    min-height: 2em;
+    outline: none;
+    width: 20%;
+    padding: 03%;   
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 93%;
+}
+
+P {
+    color: #CDCDCD;
+}
+
+.checkbox {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    background: #0E0E0E;
+}
+
+input[type=checkbox]:checked {
+    background-color: #CDCDCD;
+    clip-path: polygon(41% 52%, 26% 35%, 10% 51%, 37% 88%, 37% 88%, 37% 88%, 37% 88%, 37% 88%, 91% 33%, 78% 18%);
+    border: 2px solid #3b3b4f;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    border: 2px solid #3b3b4f;
+}
+
+.buy-a-property {
+    font-size: small;
+}
+
+
+.radio {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.5em 0 0;
+}
+
+input[type=radio]:checked {
+    background-color: #CDCDCD;
+    border: 2px solid #3b3b4f;
+    clip-path: circle(30%);
+}
+
+input[type=radio] {
+    appearance: none;
+    border: 2px solid #3b3b4f;
+}
+ 
+.button {
+    text-align: center;
+}
+
+button {
+    padding: 03%;
+    background: linear-gradient(90deg, #FEAC6D 0%, #AE61ED 100%);
+    border-radius: 48px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    color: #ffffffff;
+}
