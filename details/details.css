@@ -25,6 +25,9 @@ p {
 label {
     color: #FFFBFB;
 }
+.sub-tr {
+width: 27%;
+}
 
 header {
     padding: clamp(1rem, 10vw, 2rem); 
@@ -171,4 +174,29 @@ padding-left: 2rem;
     display: block;
     padding-top: 1rem;
     padding-left: 2rem;
+ }
+
+ .lists big {
+    padding-top: 4rem;
+ }
+
+ .lists p {
+    margin-top: unset;
+    padding-top: 1rem;
+ }
+
+ .sub-div {
+    padding-left: 2rem;
+ }
+
+ .sub-div table {
+    border: unset;
+ }
+
+ .sub-div th {
+    border: 1px solid #FFFBFB59;
+ }
+ .box {
+    background: #161616;
+
  }
