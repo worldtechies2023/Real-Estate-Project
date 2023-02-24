@@ -8,6 +8,7 @@
 
 body {
     background: #000000;
+    overflow-x: hidden;
     /* font-family: 'Imperial Script', cursive;
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -176,27 +177,116 @@ padding-left: 2rem;
     padding-left: 2rem;
  }
 
- .lists big {
-    padding-top: 4rem;
- }
-
- .lists p {
-    margin-top: unset;
-    padding-top: 1rem;
- }
-
- .sub-div {
+ .h-four {
+    color : #1DAEFF;
     padding-left: 2rem;
+    margin-top: 2rem;
  }
+ .Articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
 
- .sub-div table {
+.article {
+    width: 100%;
+    background-color: #0E0E0E;
+    border-radius: 10px;
+}
+
+.article table {
     border: unset;
  }
 
- .sub-div th {
+ .article th {
     border: 1px solid #FFFBFB59;
  }
- .box {
-    background: #161616;
+ .sub th{
+    width: 50%;
+ }
+ .sub-tr {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+ }
+ .sub-tr img {
+    width: auto !important;
+    height: max-content;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+ }
 
+ /* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+ .logo {
+    padding-left: 2rem;
+    width: 25%;
+ }
+ .logo span {
+    color:#1DAEFF;
+    cursor: pointer;
+ }
+ .contact {
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+ }
+ .contact p {
+    width: 30%;
+ }
+ 
+ .social {
+    width: 25%;
+ }
+ .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4.2rem;
+    margin-top: 1rem;
+ }
+
+ h6 {
+    text-align: center;
+    color:rgb(190, 190, 190);
+ }
+ h5 {
+    color: #FFFBFB;
+    font-weight: 900;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .footer table {
+    width: unset;
+    margin-top: 2rem;
+    margin-left: -0.5rem;
+ }
+ .footer table img {
+    width: auto !important;
+    height: max-content;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ }
+ .earth {
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+ }
+ .earth th{
+    padding: unset;
+    border: unset;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
  }
