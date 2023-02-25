@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    font-family: 'Montserrat'
+}
+img{
+    max-width: 100%;
+}
+p{
+    color: white;
+    font-size: 1.1rem;
+    line-height:1.4rem;
+}
+h1{
+    color: white;
+    
+    font-size: 3rem;
+    font-weight: 700;
+}
+h2{
+    color: #FF9550;
+    font-size: 3rem;
+    padding: 0 4rem;
+}
+h3{
+    color:#1DAEFF;
+     font-size: 2rem;
+     margin: 1.5rem 0;
+}
+h4{
+    color: white;
+    margin: 1rem 0;
+}
+h5, h6{
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+header{
+    background: url('./home-imgs/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+    padding: 3rem clamp(1rem, 6vw, 8rem);
+}
+header h1{
+    margin-top: 15rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    font-size: 1.1rem;   
+}
+.nav-content{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+ .btn-sign{
+    padding: 1rem 1.5rem;
+    background: #1DAEFF;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: .6rem;
+    font-size: 1rem;
+}
+.btn{
+    padding: 1rem 1.3rem;
+    border-radius: .6rem;
+    border: 1px solid white;
+     background-color:#111111;
+    color: white;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+.btn:hover{
+    border: 1px solid blue;
+    text-decoration: underline;
+}
+.dream-home{
+    color: #1DAEFF;
+}
+.all-button{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+.btn-4{
+    padding: 2rem 4rem;
+}
+.mi_filter{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color:#1DAEFF;
+margin: 0 2rem;
+padding: .8rem 1.5rem;
+border-radius: .6rem;
+}
+.button-filter{
+    background-color: #1DAEFF;
+    border: none;
+    color: white;
+   font-size: 1rem;
+}
+.filter-icon{
+    display: flex;
+    align-items: center;
+}
+.houses{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+.house-div > img{
+    width: 100%;
+}
+.house-div{
+    background-color: #161616;
+    flex-grow: 1;
+    height: 90%;
+}
+.details-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+.btn-details{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #FEAC6D 0%,#AE61ED 100%);
+    color: white;
+    border-radius: .6rem;
+    border: none;
+}
+.icon-svg{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255,255,255, 0.35);
+    border-radius: 8px; 
+    margin: 2rem 0;  
+}
+.icon{
+    display:flex;
+    border-left:1px solid rgba(255,255,255, 0.2);
+    padding: .3rem 2rem;
+    align-items: center;
+    flex-grow: 1;
+}
+.details{
+text-align: center;
+color: white;
+margin: 1rem 0; 
+}
+.details > img{
+    background-color: rgba(255,255,255, 0.2);
+    width: 2%;
+    border-radius: 3rem;
+    height: 5%;
+}
+.details p{
+    margin: 1rem 0;
+}
+.map p{
+    padding: 1.8rem 4rem;
+}
+.map img{
+    width: 100%;
+}
+.About{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    background: url('./home-imgs/image\ 16.png');
+}
+ .About button, .get-in-touch button{
+    background-color:#1DAEFF;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.About button:hover{
+    text-decoration: none;
+}
+.all-abt-us{
+    padding: 5rem 4rem;
+    flex-wrap: wrap;
+ flex-basis: 700px;
+}
+.about-us {
+    margin: 4rem 0;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+.projects{
+    text-align: center;
+}
+.get-in-touch{
+    padding: 4rem 5rem;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.touch-content{
+    flex-basis:300px;
+    flex-grow: 1;
+}
+    form{
+        flex-basis: 300px;
+        flex-grow:1;
+    }
+    form div{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1.6rem;
+    }
+    input{
+        color: white;
+        background-color:black;
+        display: block;
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 1.4rem 0;
+        font-size: 1rem;
+        border:none;  
+        border-bottom: 1px solid #F2F2F2;   
+    }
+    input:focus{
+        border:none;  
+        border-bottom: 1px solid #F2F2F2;   
+        outline: none;  
+    }
+footer{
+    color: white;
+    padding: 2rem 0;
+}
+footer p{
+    font-size: .8rem;   
+}
+.footer-abt-us{
+    display: flex; 
+    gap: 10rem; 
+    padding: 0 5rem; 
+}
+.footer-logo{
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+.footer-logo a{
+    color: #1DAEFF;
+    font-size: .8rem;
+    text-decoration: underline;
+}
+.footer-logo p{
+    padding: 1.5rem 0;
+}
+.contact p{
+    margin: .8rem 0;
+}
+.social-icon div{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin: 2rem 0;
+}
+label{
+    background-color: #111111;
+    border-radius: 3rem;
+}
+ .footer-end{
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    padding: 1rem 0;
+}
