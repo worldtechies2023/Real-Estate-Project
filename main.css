@@ -212,11 +212,11 @@ margin: 1rem 0;
     align-items: center;
     justify-content: space-between; 
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 12rem;
 }
 .touch-content{
     flex-basis:300px;
-    flex-grow: 1;
+    flex-grow: .3;
 }
     form{
         flex-basis: 300px;
@@ -276,12 +276,25 @@ footer p{
     gap: 2.5rem;
     margin: 2rem 0;
 }
-label{
+.earth{
     background-color: #111111;
-    border-radius: 3rem;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: .1rem 0;
+    color: white;
+    border-radius: 1rem;
+    
+}
+.earth > img{
+    width: auto;
+    height: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem
 }
  .footer-end{
     text-align: center;
     border-top: 1px solid rgba(255,255,255, 0.2);
     padding: 1rem 0;
+    margin: 2rem 0;
 }

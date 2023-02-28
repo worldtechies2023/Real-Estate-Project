@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:#0A0A0A;
+   font-family: 'mulish';
+}
+header{
+    padding: 2rem 1rem
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    border-radius: 4rem;
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0 4rem;
+    background-color:#0E0E0E;
+    height: 1000px;   
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    font-family:'mulish';
+    font-weight: 700;
+}
+.profile-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+    margin: 2rem 0;
+}
+.profile-content > img{
+    border-radius: 5rem;
+    width:50%;
+}
+.profile-content form{
+    width: 100%;
+}
+.profile-content input{
+    padding: 04%;
+}
+fieldset{
+    border: none;
+}
+form{
+    color:white;
+    font-size: 1rem;  
+}
+input{
+    border:none;
+    margin:1.6rem 0;
+    min-height: 3em;
+    border-radius: 1rem;
+    width:100%;
+    padding: 02%;
+    background: #111111;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    font-size: .8rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+   align-items: center; 
+   margin: 2rem 0;
+   padding: 0 1rem;
+}
+.btn-1{
+    background: #111111;
+    color:white;
+    border:none;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+}
+.btn-2{
+    background: linear-gradient(90deg, #FEAC6D 0%, #AE61ED 100%);
+    color: white;
+    border-radius: 2rem;
+    border:none;
+    padding: 1rem 3rem;
+
+
+}
