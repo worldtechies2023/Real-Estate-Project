@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Inter:wght@300;400&family=Montserrat:wght@400;600&family=Mulish&family=Rubik&family=Wellfleet&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010101;
+}
+img {
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 1rem;
+    background: #161616;
+}
+
+.search {
+    margin-top: 0.5rem;
+}
+.search-container input[type="text"] {
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+background: #0E0E0E;
+backdrop-filter: blur(21.5px);
+float: right;
+padding: 10px;
+border: none;
+margin-right: 16px;
+font-size: 17px;
+width: 300px;
+display: block;
+}
+  
+.search-container i {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 18px;
+}
+
+.title1 {
+    color: #5F5F5F;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;  
+}
+
+.title2 {
+font-family: Mulish;
+font-size: 30px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
+.title3{
+    color: #5F5F5F;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+.titles {
+    display: flex;
+    justify-content: space-between;
+    gap : 1rem;
+}
+.control-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.btn1 {
+    /* background-color: #010101; */
+    background-color: rgb(22, 22, 22);
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.btn1:hover {
+   background-color: #5F5F5F;
+   color: #010101;
+}
+
+.btn2:hover {
+    background-color: #5F5F5F;
+    color: #010101;
+ }
+
+.btn2 {
+    background-color: rgb(22, 22, 22);
+    /* background-color: #010101; */
+    color: #FFFFFF; 
+    border-radius: 10px;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+h6 {
+  color:  #5F5F5F
+}
+
